@@ -1,0 +1,22 @@
+/** Languages offered for transcription. "auto" lets Gemini detect the language. */
+export const LANGUAGES: { code: string; label: string }[] = [
+  { code: "auto", label: "Detect automatically" },
+  { code: "en-US", label: "English (US)" },
+  { code: "en-GB", label: "English (UK)" },
+  { code: "en-IN", label: "English (India)" },
+  { code: "en-AU", label: "English (Australia)" },
+  { code: "hi-IN", label: "Hindi" },
+  { code: "ta-IN", label: "Tamil" },
+  { code: "te-IN", label: "Telugu" },
+  { code: "es-ES", label: "Spanish (Spain)" },
+  { code: "es-MX", label: "Spanish (Mexico)" },
+  { code: "fr-FR", label: "French" },
+  { code: "de-DE", label: "German" },
+  { code: "pt-BR", label: "Portuguese (Brazil)" },
+  { code: "it-IT", label: "Italian" },
+  { code: "nl-NL", label: "Dutch" },
+  { code: "ja-JP", label: "Japanese" },
+  { code: "ko-KR", label: "Korean" },
+  { code: "zh-CN", label: "Chinese (Mandarin)" },
+  { code: "ar-SA", label: "Arabic" },
+];
